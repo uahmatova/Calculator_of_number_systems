@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Калькулятор систем счисления</title>
+</head>
+
+
+
+<body>
+    <div class="container">
+        <h1>КАЛЬКУЛЯТОР</h1>
+        <h2>СИСТЕМ СЧИСЛЕНИЯ</h2>
+        <label for="fromBase" class = "l1">ВВЕДИТЕ ЧИСЛО:</label>
+        <input type="text" id="numberInput">
+        
+        <label for="fromBase" class = "l2">ИСХОДНАЯ СС:</label>
+        <select id="fromBase">
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+        </select>
+
+        <label for="toBase" class = "l2">ИТОГОВАЯ СС:</label>
+        <select id="toBase">
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+        </select>
+
+        <button id="convertButton">ПЕРЕВЕСТИ</button>
+
+    </div>
+    <div class="res">
+        <label class = "itog" id="resultblock"></label>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
