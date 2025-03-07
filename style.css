@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'Montserrat-Semibold';
+    src: url(./Montserrat-Semibold.ttf);
+   }
+
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url(./Montserrat-Medium.ttf);
+   }
+
+body {
+    font-family: 'Montserrat-Semibold';
+    background-color: white;
+}
+
+.container {
+    background-color: white;
+    background-image: url("./кот.png");
+    background-repeat: no-repeat;
+    background-size: initial;
+    background-position: 130px 280px;
+    overflow: hidden;  
+    width: 100%; /* Задаем ширину */
+
+}
+
+
+h1 {
+    font-size: 55px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 70px;
+}
+
+h2 {
+    font-size: 55px;
+    color: #ffbb00;
+    text-align: center;
+    margin-top: 10px;
+}
+
+label {
+    font-family: 'Montserrat-Medium';
+    font-size: 30px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 0px;
+}
+
+.l1{
+    margin-top: 60px;
+    margin-left: -1.5%;
+}
+
+.l2{
+    margin-top: 25px;
+    margin-left: -4%;
+}
+
+input {
+    margin: 10px 0;
+    padding: 15px;
+    width: 30%;
+    margin-left: 40%;
+    margin-right: 0px;
+    font-family: 'Montserrat-Medium';
+    font-size: 20px;
+    color: #ffbb00;
+}
+
+select {
+    margin: 10px 0;
+    padding: 15px;
+    width: 32.5%;
+    margin-left: 40%;
+    margin-right: 0px;
+    font-family: 'Montserrat-Medium';
+    font-size: 20px;
+    color: #ffbb00;
+}
+
+button {
+    padding: 10px 0px;
+    width: 33%;
+    height: 55px;
+    font-family: 'Montserrat-Semibold';
+    background-color: #ffbb00;
+    border: 5px ;
+    cursor: pointer;
+    margin-bottom: 70px;
+    margin-left: 40%;
+    margin-top: 40px;
+    margin-right: 0px;
+    font-size: 20px;
+}
+
+
+
+.res{
+    width: 50%;
+    /* border: 10px solid #008CBA; */
+    float: right; 
+}
+
+.itog{
+    font-family: 'Montserrat-SemiBold';
+    font-size: 40px;
+    margin-top: -50%;
+    margin-left: 60%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+
